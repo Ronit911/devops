@@ -8,58 +8,61 @@ This repository documents the concepts I learn, the systems I configure, the app
 
 ## What I'm Learning
 
-### Infrastructure & Servers
+### Infrastructure & Networking
+
 - Windows Server
 - Ubuntu Server
-- Server administration
-- Virtualization
-- Type 2 hypervisors
+- Virtualization and Type 2 hypervisors
 - NAT networking
 - Static IP configuration
-- Internet connectivity and network routing
-
-### Microsoft 365 & Licensing
-- Windows Server licensing models
-- Microsoft 365 licensing
-- Microsoft 365 plans and licensing considerations
-- License procurement and activation workflows
+- Network routing and connectivity
+- Linux server administration
 
 ### Application Deployment
+
 - Node.js
 - React
-- Static application deployment
 - Linux-based application hosting
+- Static application deployment
 - Process management with PM2
+- Remote server deployment
 
 ### Cloud & Networking
+
 - Domains and DNS
 - Cloudflare
 - Cloudflare Tunnel
-- HTTPS / TLS
+- HTTPS and TLS
 - Reverse proxy concepts
+- Secure application access
 
 ### Git & CI/CD
+
 - Git
 - GitHub
 - GitHub Actions
 - Continuous Integration
 - Continuous Deployment
+- Pull request workflows
 - Self-hosted GitHub Actions runners
 - Automated application deployment
 
 ### Containers & Web Infrastructure
+
 - Docker
 - Dockerfiles
 - Docker images and containers
+- Multi-stage builds
 - Container-based application deployment
 - Nginx
 - Reverse proxies
 - Multi-application hosting
 
 ### Production & Release Engineering
+
+- Branching strategies
 - Pull requests
-- Branch protection
-- Required checks
+- Required CI checks
 - Versioning
 - Development, staging, and production environments
 - Container registries
@@ -70,7 +73,7 @@ This repository documents the concepts I learn, the systems I configure, the app
 
 ## Learning Progression
 
-My learning is progressing from individual infrastructure components toward complete deployment and release workflows:
+The learning path in this repository is gradually moving from individual infrastructure components toward complete application delivery workflows.
 
 ```text
 Servers & Infrastructure
@@ -79,9 +82,9 @@ Virtualization & Networking
         ↓
 Application Deployment
         ↓
-Domain & Cloudflare
-        ↓
 Process Management
+        ↓
+Domain & Cloudflare
         ↓
 Git & GitHub
         ↓
@@ -92,26 +95,37 @@ Docker
 Nginx & Reverse Proxy
         ↓
 Self-Hosted Runners
+        ↓
+Remote Deployment
+        ↓
+Production Deployment
+        ↓
+Environments & Release Engineering
+```
+
+---
 
 ## Hands-On Work
 
-This repository documents my hands-on work and learning across different areas of DevOps, infrastructure, deployment, and automation.
+The repository contains practical documentation and implementation work across the different stages of the learning path.
 
-The work includes:
+Examples include:
 
-* Setting up Windows Server and Ubuntu Server virtual machines
-* Configuring NAT networking and static IP addresses
-* Deploying React applications on Ubuntu
-* Managing applications and processes with PM2
-* Connecting domains and configuring DNS through Cloudflare
-* Setting up Cloudflare Tunnel for secure application access
-* Building CI/CD pipelines with GitHub Actions
-* Working with GitHub Actions self-hosted runners
-* Containerizing applications with Docker
-* Serving applications through Nginx reverse proxy
-* Deploying applications to remote Linux servers
-* Working with HTTPS and TLS
-* Understanding production-oriented CI/CD and release workflows
+- Setting up Windows Server and Ubuntu Server virtual machines
+- Configuring VirtualBox networking and static IP addresses
+- Deploying a React application on Ubuntu
+- Managing applications with PM2
+- Connecting domains and configuring DNS through Cloudflare
+- Setting up Cloudflare Tunnel
+- Building CI/CD pipelines with GitHub Actions
+- Working with self-hosted GitHub Actions runners
+- Containerizing applications with Docker
+- Configuring Nginx as a reverse proxy
+- Deploying applications to remote Linux servers
+- Working with HTTPS and TLS
+- Designing production-oriented deployment and release workflows
+
+Each topic is documented with the commands, configurations, architecture, implementation details, troubleshooting steps, and lessons learned from the work.
 
 ---
 
@@ -131,44 +145,46 @@ devops/
 └── production-release/
 ```
 
-Each section focuses on a specific area of the DevOps journey and contains practical notes, commands, configurations, architecture explanations, implementation details, and lessons learned.
+Each directory represents a stage or area of the DevOps learning process.
+
+The documentation is organized around practical implementation rather than only theoretical concepts.
 
 ---
 
 ## Approach
 
-I am following a hands-on approach rather than learning DevOps only through theory.
+I am following a hands-on approach to learning DevOps.
 
-For each area, the goal is to:
+For each technology or workflow, I aim to:
 
 1. Understand the underlying concept.
 2. Configure and work with the technology.
-3. Deploy or test something practical.
-4. Understand the problems encountered during implementation.
-5. Document the implementation and the reasoning behind it.
-6. Gradually connect individual technologies into complete workflows.
+3. Build or deploy something practical.
+4. Troubleshoot issues encountered during implementation.
+5. Document the commands and configuration involved.
+6. Understand why each component is required.
+7. Connect individual technologies into a complete workflow.
 
-The objective is not only to understand individual tools, but also how they work together as part of a software delivery system.
+The goal is to understand not only **how to use a tool**, but also **why it is used and how it fits into the larger deployment system**.
 
 ---
 
 ## Current Focus
 
-I am currently working toward a more production-oriented application delivery workflow involving:
+My current focus is moving from individual tools toward integrated, production-oriented workflows involving:
 
-* Git and GitHub workflows
-* GitHub Actions
-* Pull request workflows
-* CI checks
-* Self-hosted GitHub Actions runners
-* Docker-based deployments
-* Docker image publishing
-* Environment-based deployments
-* Application versioning
-* Release workflows
-* Nginx reverse proxy
-* Cloudflare and secure application access
-* Deployment to remote Linux servers
+- Git and GitHub workflows
+- Pull requests and CI checks
+- GitHub Actions
+- Self-hosted runners
+- Docker-based deployments
+- Docker image publishing
+- Environment-based deployments
+- Application versioning
+- Nginx reverse proxy
+- Cloudflare
+- Remote Linux servers
+- Release workflows
 
 ---
 
@@ -176,9 +192,4 @@ I am currently working toward a more production-oriented application delivery wo
 
 The goal of this repository is to build a strong practical understanding of DevOps by progressively moving from infrastructure fundamentals toward automated, containerized, and production-oriented application delivery.
 
-Rather than treating each technology as an isolated tool, I am focusing on understanding how infrastructure, source control, CI/CD, containers, networking, reverse proxies, security, and deployment processes fit together into a complete workflow.
-
-        ↓
-Production Deployment
-        ↓
-Environments & Release Engineering
+Rather than treating each technology as an isolated tool, I am focusing on understanding how infrastructure, source control, CI/CD, containers, networking, reverse proxies, security, and release processes fit together into a complete software delivery workflow.
