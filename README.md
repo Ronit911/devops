@@ -131,7 +131,7 @@ Each topic contains a combination of hands-on implementation notes, commands, co
 
 ## Hands-On Projects
 
-### 1. Linux Application Deployment Lab
+### 1. Linux Application Deployment
 
 - Created and configured an Ubuntu Server environment
 - Configured VirtualBox networking
@@ -171,6 +171,15 @@ Each topic contains a combination of hands-on implementation notes, commands, co
 - Worked with HTTP/HTTPS and TLS concepts
 - Documented multi-application routing
 - Studied production deployment, rollback, environments, and troubleshooting
+
+### 6. Security and Networking
+
+- Windows SMB server and client connectivity
+- Cloudflare Tunnel dependencies and internet-outage behavior
+- Zero Trust security concepts
+- Application-aware firewall and access-control policies
+- Network troubleshooting and access-path analysis
+
 
 ---
 
