@@ -107,7 +107,7 @@ Environments & Release Engineering
 
 ## Hands-On Work
 
-The repository contains practical documentation and implementation work across the different stages of the learning path.
+The repository contains practical documentation and implementation work across different stages of my DevOps learning journey.
 
 Examples include:
 
@@ -116,16 +116,21 @@ Examples include:
 - Deploying a React application on Ubuntu
 - Managing applications with PM2
 - Connecting domains and configuring DNS through Cloudflare
-- Setting up Cloudflare Tunnel
+- Setting up and troubleshooting Cloudflare Tunnel
+- Exploring Windows SMB server-client connectivity and file sharing
+- Investigating internet outages and their impact on tunnel-based access
+- Learning Zero Trust principles and application-aware firewall policies
+- Testing network access restrictions and troubleshooting connectivity issues
 - Working with CI/CD pipelines using GitHub Actions
-- Working with self-hosted GitHub Actions runners
-- Containerizing applications with Docker
+- Configuring and troubleshooting self-hosted GitHub Actions runners
+- Working with Docker images, containers, and multi-stage builds
 - Configuring Nginx as a reverse proxy
 - Deploying applications to remote Linux servers
 - Working with HTTPS and TLS
-- Designing production-oriented deployment and release workflows
+- Studying production deployment, release workflows, and rollback strategies
 
-Each topic contains a combination of hands-on implementation notes, commands, configuration examples, architecture explanations, troubleshooting steps, and lessons learned.
+Each topic includes relevant implementation notes, commands, configuration examples, architecture explanations, troubleshooting steps, and lessons learned. The repository distinguishes between work implemented and tested hands-on and concepts that are still being explored.
+
 
 ---
 
@@ -174,11 +179,12 @@ Each topic contains a combination of hands-on implementation notes, commands, co
 
 ### 6. Security and Networking
 
-- Windows SMB server and client connectivity
-- Cloudflare Tunnel dependencies and internet-outage behavior
-- Zero Trust security concepts
-- Application-aware firewall and access-control policies
-- Network troubleshooting and access-path analysis
+- Configured and tested Windows SMB server-client connectivity
+- Explored Cloudflare Tunnel behavior during internet outages
+- Studied Zero Trust security architecture and access control
+- Configured application-aware firewall policies to allow selected applications and websites
+- Tested network restrictions and verified allowed and blocked traffic
+- Troubleshot network connectivity, routing, and service accessibility
 
 
 ---
